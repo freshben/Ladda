@@ -390,7 +390,7 @@
 			length = radius * 0.6,
 			width = radius < 7 ? 2 : 3;
 
-		return new Spinner( {
+		return new window.Spinner( {
 			color: spinnerColor || '#fff',
 			lines: lines,
 			radius: radius,
